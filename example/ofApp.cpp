@@ -29,7 +29,7 @@ void ofApp::exit(){
 void ofApp::keyPressed(int key){
 
 	//send a Prowl notification
-	prowl.sendNotification("332c105bbefe4914c9a14bba4162b9430f1de1b5",
+	prowl.sendNotification("your prowl key", //ie 332c105bbefe4914c9a14bba4162b9430
 						   "ofxProwl Addons",
 						   "Test Notification",
 						   "notification description",
